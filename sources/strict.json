@@ -1,0 +1,35 @@
+{
+  "identifier": "strict",
+  "blacklists": [
+    {
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "skipLines": 36,
+      "type": "host"
+    },
+    {
+      "url": "https://mirror1.malwaredomains.com/files/justdomains",
+      "skipLines": 0,
+      "type": "basic"
+    },
+    {
+      "url": "http://sysctl.org/cameleon/hosts",
+      "skipLines": 2,
+      "type": "host"
+    },
+    {
+      "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
+      "skipLines": 4,
+      "type": "basic"
+    },
+    {
+      "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+      "skipLines": 4,
+      "type": "basic"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/codescot/blackhole/master/sources/custom.txt",
+      "skipLines": 0,
+      "type": "basic"
+    }
+  ]
+}
