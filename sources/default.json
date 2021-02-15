@@ -12,11 +12,6 @@
       "type": "basic"
     },
     {
-      "url": "http://sysctl.org/cameleon/hosts",
-      "skipLines": 2,
-      "type": "host"
-    },
-    {
       "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
       "skipLines": 4,
       "type": "basic"
