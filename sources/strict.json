@@ -7,11 +7,6 @@
       "type": "host"
     },
     {
-      "url": "https://mirror1.malwaredomains.com/files/justdomains",
-      "skipLines": 0,
-      "type": "basic"
-    },
-    {
       "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
       "skipLines": 4,
       "type": "basic"
